@@ -3,6 +3,7 @@ import styles from './page.module.css'
 import ImageBanner from './components/ImageBanner'
 import VideoSection from './components/VideoSection'
 import BrideGrid from './components/BrideGrid'
+import StickySection from './components/StickySection'
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
 
     <BrideGrid/>
     <VideoSection/>
+
+    <StickySection/>
    </main>
   )
 }

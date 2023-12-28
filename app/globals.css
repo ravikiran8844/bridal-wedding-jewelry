@@ -84,3 +84,30 @@ a {
 .bride-grid-section_items .h2{
   color: #63300f;
 }
+
+
+.sticky-section{
+  background-color: #f5f1e6;
+  width: 100%;
+  box-shadow: 0px 0px 23px 0px #E3E3E3;
+}
+
+.sticky-section-btn,.sticky-section-btn:hover{
+  border-radius: 30px;
+  color: #fff !important;
+  background: #851753 !important;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: transparent;
+  border: 2px solid transparent;
+  width: fit-content;
+  margin: auto;
+}
+
+body{
+  padding-bottom: 142px;
+}
