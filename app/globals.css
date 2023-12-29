@@ -113,7 +113,7 @@ a {
 
 
 .flip-book-section{
-  background-color: #f5f1e6;
+  background: #f5f1e6 url("/video_bg_pattern.png");
 }
 
 
@@ -128,7 +128,9 @@ body{
   padding-bottom: 122px;
 }
 
-
+.slick-cards-section{
+  background: #f5f1e6 url("/bg_pattern_new.png");
+}
 
 .slick-cards-section .slick-slide {
   padding:0px 5px;
