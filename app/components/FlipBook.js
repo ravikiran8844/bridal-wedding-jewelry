@@ -20,7 +20,7 @@ const FlipBook = () => {
             maxWidth={500}
             maxHeight={500}
             maxShadowOpacity={0.5}
-            showCover={true}
+            showCover={false}
             mobileScrollSupport={true}  
             className="m-auto flip-book-section_wrapper"
            
