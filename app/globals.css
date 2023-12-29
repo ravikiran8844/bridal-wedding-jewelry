@@ -128,6 +128,13 @@ object-fit: cover;
   color: #851753 !important;
 }
 
+
+
+
+.slider-section .carousel-item img{
+  border-radius: 20px;
+}
+
 .slider-section .slick-slide {
   padding:0px 5px;
 }

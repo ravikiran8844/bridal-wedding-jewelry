@@ -8,6 +8,7 @@ import Image from "next/image";
 export default class SliderCards extends Component {
     render() {
         var settings = {
+            arrows:false,
             dots: true,
             infinite: true,
             speed: 500,
