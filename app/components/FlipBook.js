@@ -1,19 +1,27 @@
-"use client"
+"use client";
 
-import Image from 'next/image';
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 import HTMLFlipBook from "react-pageflip";
 
 const FlipBook = () => {
   return (
-   <section className='flip-book-section'>
-    <div className='container py-5'>
-        <div className='col-12 text-center mb-5'>
-            <div className='fs-1 fw-bold font-secondary primary-text'>Explore the Collection</div>
-            <Image width={250} height={14} className='img-fluid' src="/heading_design_0207.png" alt="heading underline img" />
+    <section className="flip-book-section">
+      <div className="container py-5">
+        <div className="col-12 text-center mb-5">
+          <div className="fs-1 fw-bold font-secondary primary-text">
+            Explore the Collection
+          </div>
+          <Image
+            width={250}
+            height={14}
+            className="img-fluid"
+            src="/heading_design_0207.png"
+            alt="heading underline img"
+          />
         </div>
-        <div className='col-12'>
-        <HTMLFlipBook
+        <div className="col-12">
+          <HTMLFlipBook
             width={500}
             height={500}
             size="stretch"
@@ -21,55 +29,124 @@ const FlipBook = () => {
             maxHeight={500}
             maxShadowOpacity={0.5}
             showCover={false}
-            mobileScrollSupport={true}  
+            mobileScrollSupport={true}
             className="m-auto flip-book-section_wrapper"
-           
           >
-             <div className="page" data-density="hard">
-             <Image width={500} height={500} className='img-fluid' src="/slider-1.jpg" alt="image" />
+            <div className="page" data-density="hard">
+              <Image
+                width={500}
+                height={500}
+                className="img-fluid"
+                src="/slider-1.jpg"
+                alt="image"
+              />
             </div>
 
             <div className="page">
-              <Image width={500} height={500} className='img-fluid' src="/slider-2.jpg" alt="image" />
+              <Image
+                width={500}
+                height={500}
+                className="img-fluid"
+                src="/slider-2.jpg"
+                alt="image"
+              />
             </div>
             <div className="page">
-              <Image width={500} height={500} className='img-fluid' src="/slider-3.jpg" alt="image" />
+              <Image
+                width={500}
+                height={500}
+                className="img-fluid"
+                src="/slider-3.jpg"
+                alt="image"
+              />
             </div>
             <div className="page">
-              <Image width={500} height={500} className='img-fluid' src="/slider-4.jpg" alt="image" />
+              <Image
+                width={500}
+                height={500}
+                className="img-fluid"
+                src="/slider-4.jpg"
+                alt="image"
+              />
             </div>
             <div className="page">
-              <Image width={500} height={500} className='img-fluid' src="/slider-5.jpg" alt="image" />
+              <Image
+                width={500}
+                height={500}
+                className="img-fluid"
+                src="/slider-5.jpg"
+                alt="image"
+              />
             </div>
             <div className="page">
-              <Image width={500} height={500} className='img-fluid' src="/slider-6.jpg" alt="image" />
+              <Image
+                width={500}
+                height={500}
+                className="img-fluid"
+                src="/slider-6.jpg"
+                alt="image"
+              />
             </div>
             <div className="page" data-density="hard">
-             <Image width={500} height={500} className='img-fluid' src="/slider-1.jpg" alt="image" />
+              <Image
+                width={500}
+                height={500}
+                className="img-fluid"
+                src="/slider-1.jpg"
+                alt="image"
+              />
             </div>
 
             <div className="page">
-              <Image width={500} height={500} className='img-fluid' src="/slider-2.jpg" alt="image" />
+              <Image
+                width={500}
+                height={500}
+                className="img-fluid"
+                src="/slider-2.jpg"
+                alt="image"
+              />
             </div>
             <div className="page">
-              <Image width={500} height={500} className='img-fluid' src="/slider-3.jpg" alt="image" />
+              <Image
+                width={500}
+                height={500}
+                className="img-fluid"
+                src="/slider-3.jpg"
+                alt="image"
+              />
             </div>
             <div className="page">
-              <Image width={500} height={500} className='img-fluid' src="/slider-4.jpg" alt="image" />
+              <Image
+                width={500}
+                height={500}
+                className="img-fluid"
+                src="/slider-4.jpg"
+                alt="image"
+              />
             </div>
             <div className="page">
-              <Image width={500} height={500} className='img-fluid' src="/slider-5.jpg" alt="image" />
+              <Image
+                width={500}
+                height={500}
+                className="img-fluid"
+                src="/slider-5.jpg"
+                alt="image"
+              />
             </div>
             <div className="page">
-              <Image width={500} height={500} className='img-fluid' src="/slider-6.jpg" alt="image" />
+              <Image
+                width={500}
+                height={500}
+                className="img-fluid"
+                src="/slider-6.jpg"
+                alt="image"
+              />
             </div>
-
-
           </HTMLFlipBook>
         </div>
-    </div>
-   </section>
-  )
-}
+      </div>
+    </section>
+  );
+};
 
-export default FlipBook
+export default FlipBook;
