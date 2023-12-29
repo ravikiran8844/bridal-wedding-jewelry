@@ -6,16 +6,18 @@ import BrideGrid from './components/BrideGrid'
 import StickySection from './components/StickySection'
 import FlipBook from './components/FlipBook'
 import SliderCards from './components/SliderCards'
+import SliderSection from './components/SliderSection'
 
 export default function Home() {
   return (
    <main>
     <ImageBanner/>
+    <SliderSection/>
     <BrideGrid/>
     <VideoSection/>
 
     <SliderCards/>
-    
+
     <FlipBook/>
 
     <StickySection/>
