@@ -76,7 +76,7 @@ a {
 @media (min-width:992px) {
   .bride-grid-section_items{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 20px;
   }
 }
@@ -87,7 +87,7 @@ a {
 
 
 .sticky-section{
-  background-color: #f5f1e6;
+  background-color: #fff;
   width: 100%;
   box-shadow: 0px 0px 23px 0px #E3E3E3;
 }
@@ -126,4 +126,10 @@ a {
 
 body{
   padding-bottom: 122px;
+}
+
+
+
+.slick-cards-section .slick-slide {
+  padding:0px 5px;
 }

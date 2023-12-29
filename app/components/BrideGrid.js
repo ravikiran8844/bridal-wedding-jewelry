@@ -82,24 +82,6 @@ const BrideGrid = () => {
                                 <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
                            </div>
                         </div>
-
-                        <div className="bride-grid-section_item text-center">
-                           <div>
-                                <Image className="img-fluid" width={315} height={533} src="/Bejeweled.webp" alt="bride image" />
-                           </div>
-                           <div>
-                                <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
-                           </div>
-                        </div>
-
-                        <div className="bride-grid-section_item text-center">
-                           <div>
-                                <Image className="img-fluid" width={315} height={533} src="/Bejeweled.webp" alt="bride image" />
-                           </div>
-                           <div>
-                                <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
-                           </div>
-                        </div>
                     </div>
                 </div>
             </div>
