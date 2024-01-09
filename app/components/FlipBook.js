@@ -6,7 +6,7 @@ import HTMLFlipBook from "react-pageflip";
 
 const FlipBook = () => {
   return (
-    <section className="flip-book-section">
+    <section className="flip-book-section overflow-hidden">
       <div className="container py-5">
         <div className="col-12 text-center mb-5">
           <div className="fs-1 fw-bold font-secondary primary-text">

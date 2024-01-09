@@ -9,7 +9,7 @@ const StickySection = () => {
         const scrollY = window.scrollY;
   
         // Adjust the offset value based on your design
-        const offset = 1200;
+        const offset = 1300;
   
         if (scrollY > offset) {
           setIsSticky(true);
