@@ -170,3 +170,19 @@ body {
 .slick-cards-section .slick-slide img {
   border-radius: 20px;
 }
+
+
+.flip-book-section_wrapper{
+  background-color: #e3d0b5;
+  color: #785e3a;
+  border: 1px solid #998466;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.page.--left{
+    border-right: 0;
+    box-shadow: inset -7px 0 30px -7px rgba(0,0,0,.4);
+}
+
+.page.--right { border-left: 0; box-shadow: inset 7px 0 30px -7px rgba(0,0,0,.4); }

@@ -1,10 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
+import React, { useRef } from "react";
 import HTMLFlipBook from "react-pageflip";
 
 const FlipBook = () => {
+  const book = useRef();
+
   return (
     <section className="flip-book-section overflow-hidden">
       <div className="container py-5">
@@ -22,6 +24,7 @@ const FlipBook = () => {
         </div>
         <div className="col-12">
           <HTMLFlipBook
+            ref={book}
             width={500}
             height={500}
             size="stretch"
@@ -32,7 +35,7 @@ const FlipBook = () => {
             mobileScrollSupport={true}
             className="m-auto flip-book-section_wrapper"
           >
-            <div className="page" data-density="hard">
+            <div className="page" >
               <Image
                 width={500}
                 height={500}
@@ -87,7 +90,7 @@ const FlipBook = () => {
                 alt="image"
               />
             </div>
-            <div className="page" data-density="hard">
+            <div className="page" >
               <Image
                 width={500}
                 height={500}
