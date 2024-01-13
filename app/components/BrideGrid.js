@@ -10,40 +10,29 @@ const BrideGrid = () => {
             <div className="container py-5">
                 <div>
                     <div className="col-12 text-center bride-grid-section_content m-auto p-5">
-                        <div>Meet the Malabar Brides Of India,</div>
+                        <div className="mb-4">You're a modern woman. You love your roots, but you also love rocking the latest trends. And your wedding? It's gotta be the perfect blend of both.</div>
                         <div>
-                            they hold the traditions close to their heart but express themselves
-                            in their unique vibrant styles. Every bride showcased in edition of
-                            Malabar Bride’s Of India is not just the showstopper, she's the
-                            show-runner as well. For she's the new-age bride of India. With her
-                            hands firmly behind the wheel of her own journey, she decides how
-                            her story is going to be. While she is paving her way to happiness,
-                            she is also inspiring everyone with her confidence. This is her
-                            moment, and she's going to have her say. From here on, she's going
-                            to #ShowTheWay.
+                        That's where <b>TVAM, the new bridal collection from Jewel One</b>, comes in. It's like the coolest fusion of your grandma's temple jewellery and the hottest fashion magazine.
+
                         </div>
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-12 bride-grid-section_items">
-                        <div className="bride-grid-section_item text-center">
+
+
+
+
+                    <div className="bride-grid-section_item text-center">
                            <div>
-                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-1.webp" alt="bride image" />
+                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-5.webp" alt="bride image" />
                            </div>
                            <div>
-                                <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
+                                <div className="h2"><span className="font-secondary fw-bold">Engagement Jewellery</span></div>
                            </div>
                         </div>
 
-                        <div className="bride-grid-section_item text-center">
-                           <div>
-                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-2.webp" alt="bride image" />
-                           </div>
-                           <div>
-                                <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
-                           </div>
-                        </div>
 
 
                         <div className="bride-grid-section_item text-center">
@@ -51,37 +40,55 @@ const BrideGrid = () => {
                                 <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-3.webp" alt="bride image" />
                            </div>
                            <div>
-                                <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
+                                <div className="h2"> <span className="font-secondary fw-bold">Mehendi Jewellery</span></div>
                            </div>
                         </div>
 
-
-                        <div className="bride-grid-section_item text-center">
-                           <div>
-                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-4.webp" alt="bride image" />
-                           </div>
-                           <div>
-                                <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
-                           </div>
-                        </div>
-
-                        <div className="bride-grid-section_item text-center">
-                           <div>
-                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-5.webp" alt="bride image" />
-                           </div>
-                           <div>
-                                <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
-                           </div>
-                        </div>
 
                         <div className="bride-grid-section_item text-center">
                            <div>
                                 <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-6.webp" alt="bride image" />
                            </div>
                            <div>
-                                <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
+                                <div className="h2"><span className="font-secondary fw-bold">Sangeet Jewellery</span></div>
                            </div>
                         </div>
+
+                        <div className="bride-grid-section_item text-center">
+                           <div>
+                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-4.webp" alt="bride image" />
+                           </div>
+                           <div>
+                                <div className="h2"> <span className="font-secondary fw-bold">Reception Jewellery</span></div>
+                           </div>
+                        </div>
+                       
+
+                        <div className="bride-grid-section_item text-center">
+                           <div>
+                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-2.webp" alt="bride image" />
+                           </div>
+                           <div>
+                                <div className="h2"> <span className="font-secondary fw-bold">Muhurtham Jewellery</span></div>
+                           </div>
+                        </div>
+
+
+                       
+
+
+                       
+
+                      
+                        <div className="bride-grid-section_item text-center">
+                           <div>
+                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-1.webp" alt="bride image" />
+                           </div>
+                           <div>
+                                <div className="h2"><span className="font-secondary fw-bold">Bridal Jewellery</span></div>
+                           </div>
+                        </div>
+                       
                     </div>
                 </div>
             </div>

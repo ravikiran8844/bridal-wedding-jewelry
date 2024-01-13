@@ -9,7 +9,7 @@ const VideoSection = () => {
     <section className='video-section'>
     <div className="video-section_wrapper container py-5">
       <div className='col-12 text-center mb-4'>
-      <div className='fs-1 primary-text fw-bold font-secondary'>It's time to #ShowTheWay</div>
+      <div className='fs-1 primary-text fw-bold font-secondary'>Be the #TrendingNo1 Bride!</div>
       <Image width={250} height={14} className='img-fluid' src="/heading_design_0207.png" alt="heading underline img" />
       </div>
 
@@ -20,10 +20,10 @@ const VideoSection = () => {
 
 
                 <LiteYouTubeEmbed
-                      id="G4o-Y01r-bY"
+                      id="GBjfDgWDLQc"
                       poster="maxresdefault"
                       params="rel=0"
-                      title="Nandini"
+                      title="Brides Of JewelOne"
                     />
        </div>
       </div>

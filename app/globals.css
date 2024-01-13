@@ -50,9 +50,11 @@ a {
 
 .bride-grid-section_content {
   max-width: 760px;
-  color: #868686;
+  color: #63300f;
 }
-
+.max-w-500{
+  max-width: 500px;
+}
 .bride-grid-section_items {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -164,6 +166,11 @@ a {
   background: #f5f1e6 url("/bg_pattern_new.png");
 }
 
+.slick-cards-section_title {
+  max-width: 800px;
+  margin: auto;
+
+}
 .slick-cards-section .slick-slide {
   padding: 0px 5px;
 }

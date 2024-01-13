@@ -49,7 +49,7 @@ export default class SliderCards extends Component {
             <section className="slick-cards-section pb-5">
                 <div className="container py-5">
                     <div className='col-12 text-center mb-5'>
-                        <div className='fs-1 primary-text fw-bold'>A captivating wedding range from Rivaah</div>
+                        <div className='fs-1 primary-text fw-bold slick-cards-section_title'>Newest Wedding Collection Range from the House of Jewel One</div>
                     </div>        
                     <Slider {...settings}>
                         <div>

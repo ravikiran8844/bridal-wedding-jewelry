@@ -19,12 +19,11 @@ const ImageCarousel = () => {
       <div className="container py-5">
         <div className="col-12 mb-4 text-center slider-section_content m-auto">
           <div className="fs-2 fw-bold mb-3">
-            When legendary designs meet iconic craftsmanship
+              Ready to make your wedding day the most #TrendingNo1 ever?
           </div>
           <div>
-            Discover how Tarun Tahiliani's modern interpretations of Indian
-            heritage intertwine flawlessly with Tanishq's masterfully crafted
-            jewels.
+          TVAM is all about you, the bride who rewrites the rules. You're rooted in tradition, but you shine bright with your own kind of sparkle.
+
           </div>
         </div>
 
@@ -115,10 +114,9 @@ const ImageCarousel = () => {
                   </div>
                 </div>
                 <div className="slider-section-grid-item mt-4  m-md-auto  text-center">
-                  <div className="fs-1 mb-3 fw-bold">Kashida</div>
-                  <div className="fs-5 mb-4 mb-md-0">
-                    Kashida, an exuberant embroidery style hailing from Jammu
-                    and Kashmir, merges vivid colors and nature-inspired motifs.
+                  <div className="fs-1 mb-3 fw-bold">TVAM 2.0:</div>
+                  <div className="fs-5 mb-4 mb-md-0 max-w-500">
+                  Embrace your timeless beauty with Jewel One's TVAM collection where modern elegance meets classic charm, making you the trendsetting bride.
                   </div>
                 </div>
               </div>
