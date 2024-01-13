@@ -29,7 +29,7 @@ const BrideGrid = () => {
                     <div className="col-12 bride-grid-section_items">
                         <div className="bride-grid-section_item text-center">
                            <div>
-                                <Image className="img-fluid" width={315} height={533} src="/Bejeweled.webp" alt="bride image" />
+                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-1.webp" alt="bride image" />
                            </div>
                            <div>
                                 <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
@@ -38,17 +38,7 @@ const BrideGrid = () => {
 
                         <div className="bride-grid-section_item text-center">
                            <div>
-                                <Image className="img-fluid" width={315} height={533} src="/Bejeweled.webp" alt="bride image" />
-                           </div>
-                           <div>
-                                <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
-                           </div>
-                        </div>
-
-
-                        <div className="bride-grid-section_item text-center">
-                           <div>
-                                <Image className="img-fluid" width={315} height={533} src="/Bejeweled.webp" alt="bride image" />
+                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-2.webp" alt="bride image" />
                            </div>
                            <div>
                                 <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
@@ -58,7 +48,17 @@ const BrideGrid = () => {
 
                         <div className="bride-grid-section_item text-center">
                            <div>
-                                <Image className="img-fluid" width={315} height={533} src="/Bejeweled.webp" alt="bride image" />
+                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-3.webp" alt="bride image" />
+                           </div>
+                           <div>
+                                <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
+                           </div>
+                        </div>
+
+
+                        <div className="bride-grid-section_item text-center">
+                           <div>
+                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-4.webp" alt="bride image" />
                            </div>
                            <div>
                                 <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
@@ -67,7 +67,7 @@ const BrideGrid = () => {
 
                         <div className="bride-grid-section_item text-center">
                            <div>
-                                <Image className="img-fluid" width={315} height={533} src="/Bejeweled.webp" alt="bride image" />
+                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-5.webp" alt="bride image" />
                            </div>
                            <div>
                                 <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>
@@ -76,7 +76,7 @@ const BrideGrid = () => {
 
                         <div className="bride-grid-section_item text-center">
                            <div>
-                                <Image className="img-fluid" width={315} height={533} src="/Bejeweled.webp" alt="bride image" />
+                                <Image className="img-fluid" width={315} height={533} src="/bride-grid-img-6.webp" alt="bride image" />
                            </div>
                            <div>
                                 <div className="h2">Bejeweled <span className="font-secondary fw-bold">Brides</span></div>

@@ -46,33 +46,31 @@ export default class SliderCards extends Component {
             ]
         };
         return (
-            <section className="slick-cards-section">
+            <section className="slick-cards-section pb-5">
                 <div className="container py-5">
                     <div className='col-12 text-center mb-5'>
                         <div className='fs-1 primary-text fw-bold'>A captivating wedding range from Rivaah</div>
                     </div>        
                     <Slider {...settings}>
                         <div>
-                            <Image src="/product-2.jpg" width={311} height={378} className="img-fluid" alt="image" />
+                            <Image src="/slider-1.webp" width={311} height={378} className="img-fluid" alt="image" />
                         </div>
                         <div>
-                            <Image src="/product-2.jpg" width={311} height={378} className="img-fluid" alt="image" />
+                            <Image src="/slider-2.webp" width={311} height={378} className="img-fluid" alt="image" />
                         </div>
                         <div>
-                            <Image src="/product-2.jpg" width={311} height={378} className="img-fluid" alt="image" />
+                            <Image src="/slider-3.webp" width={311} height={378} className="img-fluid" alt="image" />
                         </div>
                         <div>
-                            <Image src="/product-2.jpg" width={311} height={378} className="img-fluid" alt="image" />
+                            <Image src="/slider-4.webp" width={311} height={378} className="img-fluid" alt="image" />
                         </div>
                         <div>
-                            <Image src="/product-2.jpg" width={311} height={378} className="img-fluid" alt="image" />
+                            <Image src="/slider-5.webp" width={311} height={378} className="img-fluid" alt="image" />
                         </div>
                         <div>
-                            <Image src="/product-2.jpg" width={311} height={378} className="img-fluid" alt="image" />
+                            <Image src="/slider-6.webp" width={311} height={378} className="img-fluid" alt="image" />
                         </div>
-                        <div>
-                            <Image src="/product-2.jpg" width={311} height={378} className="img-fluid" alt="image" />
-                        </div>
+                       
                     </Slider>
                 </div>
             </section>

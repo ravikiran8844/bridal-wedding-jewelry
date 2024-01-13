@@ -34,13 +34,13 @@ const ImageCarousel = () => {
               <div className="slider-section-grid">
                 <div className="slider-section-grid-item">
                   <div
-                    id="carouselExampleIndicators"
+                    id="ImageCarouselIndicators"
                     className="carousel slide"
                   >
                     <div className="carousel-indicators">
                       <button
                         type="button"
-                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-target="#ImageCarouselIndicators"
                         data-bs-slide-to={0}
                         className="active"
                         aria-current="true"
@@ -48,13 +48,13 @@ const ImageCarousel = () => {
                       />
                       <button
                         type="button"
-                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-target="#ImageCarouselIndicators"
                         data-bs-slide-to={1}
                         aria-label="Slide 2"
                       />
                       <button
                         type="button"
-                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-target="#ImageCarouselIndicators"
                         data-bs-slide-to={2}
                         aria-label="Slide 3"
                       />
@@ -65,7 +65,7 @@ const ImageCarousel = () => {
                           width={546}
                           height={372}
                           className="img-fluid w-100 d-block"
-                          src="/slider-1.jpg"
+                          src="/image-banner-1.webp"
                           alt=""
                         />
                       </div>
@@ -74,7 +74,7 @@ const ImageCarousel = () => {
                           width={546}
                           height={372}
                           className="img-fluid w-100 d-block"
-                          src="/slider-2.jpg"
+                          src="/image-banner-1.webp"
                           alt=""
                         />
                       </div>
@@ -83,7 +83,7 @@ const ImageCarousel = () => {
                           width={546}
                           height={372}
                           className="img-fluid w-100 d-block"
-                          src="/slider-3.jpg"
+                          src="/image-banner-1.webp"
                           alt=""
                         />
                       </div>
@@ -91,7 +91,7 @@ const ImageCarousel = () => {
                     <button
                       className="carousel-control-prev"
                       type="button"
-                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-target="#ImageCarouselIndicators"
                       data-bs-slide="prev"
                     >
                       <span
@@ -103,7 +103,7 @@ const ImageCarousel = () => {
                     <button
                       className="carousel-control-next"
                       type="button"
-                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-target="#ImageCarouselIndicators"
                       data-bs-slide="next"
                     >
                       <span
