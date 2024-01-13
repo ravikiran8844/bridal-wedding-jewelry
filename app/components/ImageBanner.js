@@ -8,12 +8,12 @@ const ImageBanner = () => {
                 <source
                     srcSet="/home-main-banner1.webp"
                     type="image/webp"
-                    media="(min-width: 500px)"
+                    media="(min-width: 650px)"
                 />
                 <Image
                     priority="true"
                     alt="main banner"
-                    src="/home-mobile-banner1.png"
+                    src="/home-mobile-banner1.webp"
                     height={512}
                     width={1437}
                     className='img-fluid w-100'
