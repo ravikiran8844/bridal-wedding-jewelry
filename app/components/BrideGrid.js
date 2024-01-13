@@ -5,7 +5,7 @@ const BrideGrid = () => {
     return (
         <section className="bride-grid-section position-relative">
             <div>
-                <Image className="img-fluid position-absolute top-0" src="/desktop_flower_line.png" width={1920} height={223} alt="desktop flower line" />
+                <Image className="img-fluid position-absolute top-0 bride-grid-section_overlay-top" src="/desktop_flower_line.png" width={1920} height={223} alt="desktop flower line" />
             </div>
             <div className="container py-5">
                 <div>

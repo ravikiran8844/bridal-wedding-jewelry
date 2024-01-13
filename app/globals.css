@@ -51,8 +51,13 @@ a {
   border-bottom: solid 1px #efe5c8;
 }
 
+
+.bride-grid-section_overlay-top{
+  left: 50%;
+  transform: translate(-50%,0);
+}
 .bride-grid-section_content {
-  max-width: 760px;
+  max-width: 680px;
   color: #63300f;
 }
 .max-w-500{
