@@ -30,7 +30,7 @@ const ImageCarousel = () => {
 
         <div className="row">
           <div className="col-12">
-            <div className="slider-section_item-bg m-0 p-4 p-md-5">
+            <div className="slider-section_item-bg m-0 p-3 p-md-4">
               <div className="slider-section-grid">
                 <div className="slider-section-grid-item">
                   <div
@@ -114,8 +114,8 @@ const ImageCarousel = () => {
                     </button>
                   </div>
                 </div>
-                <div className="slider-section-grid-item m-auto text-center">
-                  <div className="fs-1 fw-bold">Kashida</div>
+                <div className="slider-section-grid-item mt-4  m-md-auto  text-center">
+                  <div className="fs-1 mb-3 fw-bold">Kashida</div>
                   <div className="fs-4 mb-4 mb-md-0">
                     Kashida, an exuberant embroidery style hailing from Jammu
                     and Kashmir, merges vivid colors and nature-inspired motifs.

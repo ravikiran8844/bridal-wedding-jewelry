@@ -4,7 +4,21 @@ import React from 'react'
 const ImageBanner = () => {
   return (
     <div>
-        <Image className='img-fluid w-100' src="/v-banner1.webp" width={1920} height={700} alt="main banner" />
+         <picture>
+                <source
+                    srcSet="/home-main-banner1.webp"
+                    type="image/webp"
+                    media="(min-width: 500px)"
+                />
+                <Image
+                    priority="true"
+                    alt="main banner"
+                    src="/home-mobile-banner1.png"
+                    height={512}
+                    width={1437}
+                    className='img-fluid w-100'
+                               />
+                </picture>
     </div>
   )
 }
