@@ -3,7 +3,7 @@ import React from 'react'
 
 const ImageBanner = () => {
   return (
-    <div>
+    <div className='main-image-banner'>
          <picture>
                 <source
                     srcSet="/home-main-banner1.webp"
@@ -14,8 +14,8 @@ const ImageBanner = () => {
                     priority="true"
                     alt="main banner"
                     src="/home-mobile-banner1.webp"
-                    height={512}
-                    width={1437}
+                    height={600}
+                    width={800}
                     className='img-fluid w-100'
                                />
                 </picture>

@@ -28,7 +28,10 @@ a {
 .primary-text {
   color: #7d0849;
 }
-
+.main-image-banner picture img{
+  width: 100%;
+  height: auto;
+}
 /* video section */
 
 .video-section {
