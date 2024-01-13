@@ -175,7 +175,7 @@ body {
 .flip-book-section_wrapper{
   background-color: #e3d0b5;
   color: #785e3a;
-  border: 1px solid #998466;
+  border: 2px solid #998466;
   border-radius: 10px;
   overflow: hidden;
 }
